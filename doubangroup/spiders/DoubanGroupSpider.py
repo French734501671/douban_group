@@ -32,7 +32,7 @@ class DoubangroupSpider(CrawlSpider):
     def add_cookie(self, request):
 		request.replace(cookies=[
             {
-
+		#此处添加cookie,以字典键值对的形式
 
 
                 },
